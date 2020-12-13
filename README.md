@@ -3,8 +3,6 @@
 This is a Discord bot, named 'Testudo Covid Patrol', coded in Python using discord.py that returns recent COVID-19 statistics. 
 
 ## About
--------------------------
-
 After being invited into a Discord server, our bot will operate within the channel(s) where it is allowed base permissions send messages and read messages. The bot will listen to the server chat until it detects that a “$covid” command has been made. If the request is valid, it will then retrieve the requested information from the relevant API(s) and return the statistics to the server channel it was requested from. If the request is invalid, the bot will return an error message guiding the user to proper syntax. 
 
 Data is retrieved from The [COVID Tracking Project](https://covidtracking.com/data/api) and [COVID19 API](https://covid19api.com/).
@@ -12,8 +10,6 @@ Data is retrieved from The [COVID Tracking Project](https://covidtracking.com/da
 To integrate with Discord and our command line, we imported the discord and asyncio libraries along with the os modules. We also imported the requests library and the built-in JSON package in order to interact with the APIs and retrieve the necessary data. 
 
 ## Current features for our bot: 
-------------------
-
 **$covid US (state)**: bot will return the latest statistics for the queried US state to include: new positive cases, current hospitalizations, cumulative deaths, new daily deaths, and how recently the data was last updated.
 
 **$covid check (country)**: bot will return the latest statistics for the queried country to include: total cases, new confirmed cases, cumulative deaths, new daily deaths, and how recently the data was last updated.
