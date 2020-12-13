@@ -264,7 +264,7 @@ async def on_message(message):
             
 #bot token goes here
 #run bot from command line to start
-client.run('NzgxMzI1NTIzMDAyODUxMzU5.X78AGQ.KvPOcHZlxk8xZB4AaugCT48Dbs0')
+client.run('token here')
 
 
 # In[ ]:
