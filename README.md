@@ -17,6 +17,8 @@ To integrate with Discord and our command line, we imported the discord and asyn
 Country queries are supported as both two digit country codes and by formal name. 
 > ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/11.png)
 
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/12.png)
+
 **$covid all**: bot will return the latest worldwide statistics.
 > ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/3.png)
 
@@ -50,11 +52,12 @@ Our bot’s code also supports input validation. If the user makes a query that 
   - If you are using windows type : py -3 -m pip install, -U discord.py
 
 - Next, create a simple Bot using code similar to our bot here:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/BotStarterCode.JPG)
 
 - Generate your bot token from your Discord’s Developer Portal, where you can also customize your bot’s description, picture, and name.
 
 - Once you run your bot and it is logged in and ready, it should display the on_ready message in your console. In this case, *“It’s {bot name} here!”*
-> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/7.png)
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/TestudoCovidBotCMD.JPG)
 
 - Finally invite your bot to the Discord server. Change any necessary channel permissions if you wish to isolate which channels the bot can read messages/operate in. 
 
