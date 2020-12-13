@@ -11,27 +11,35 @@ To integrate with Discord and our command line, we imported the discord and asyn
 
 ## Current features for our bot: 
 **$covid US (state)**: bot will return the latest statistics for the queried US state to include: new positive cases, current hospitalizations, cumulative deaths, new daily deaths, and how recently the data was last updated.
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/14.png)
 
 **$covid check (country)**: bot will return the latest statistics for the queried country to include: total cases, new confirmed cases, cumulative deaths, new daily deaths, and how recently the data was last updated.
 Country queries are supported as both two digit country codes and by formal name. 
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/11.png)
 
 **$covid all**: bot will return the latest worldwide statistics.
-
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/3.png)
 
 **$covid help:** bot will return a user menu that displays available features and provides notes on proper syntax.
-
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/9.png)
 
 ## Error handling:
 Our bot’s code also supports input validation. If the user makes a query that is not recognized, the bot will return an error message and direct the user to double check their syntax or consult the ‘$covid help’ documentation.
-Empty command: 
 
->Invalid state query:
+**Empty command**:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/8.png)
 
->Too many arguments: 
+**Invalid state query**:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/7.png)
 
->Incorrect syntax: 
+**Too many arguments**:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/6.png)
 
->Invalid two-digit country code:
+**Incorrect syntax**:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/5.png)
+
+**Invalid two-digit country code**:
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/4.png)
 
 ## Creating your own Discord Bot: 
 
@@ -45,9 +53,8 @@ Empty command:
 
 - Generate your bot token from your Discord’s Developer Portal, where you can also customize your bot’s description, picture, and name.
 
-
-
 - Once you run your bot and it is logged in and ready, it should display the on_ready message in your console. In this case, *“It’s {bot name} here!”*
+> ![](https://github.com/lisalynn7/covid-discord-bot/blob/main/demo/7.png)
 
 - Finally invite your bot to the Discord server. Change any necessary channel permissions if you wish to isolate which channels the bot can read messages/operate in. 
 
